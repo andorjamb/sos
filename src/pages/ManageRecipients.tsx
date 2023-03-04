@@ -1,3 +1,4 @@
+import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Typography } from '@mui/material';
 import { auth } from '../app/services/FirebaseAuth'
