@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import React,{ useEffect, useState, useRef } from "react";
 import "../styles/Dashboard.css";
 import { useSelector, useDispatch } from "react-redux";
 import { useAuthState } from "react-firebase-hooks/auth";
